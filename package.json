@@ -1,0 +1,21 @@
+{
+  "name": "health-miss-portal",
+  "version": "1.0.0",
+  "description": "Imaadhudheen School Health Nurse Portal",
+  "main": "api/claude.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'",
+    "start": "node api/claude.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
